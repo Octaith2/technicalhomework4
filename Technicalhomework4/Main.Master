@@ -11,6 +11,25 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <style>
+        .list-group
+        {
+            margin-top: 50px;
+
+        }
+
+        #HistoryHeader
+        {
+            margin-top: 60px;
+            text-align: center;
+            font-size: 40px;
+        }
+
+        .form-row
+        {
+            margin: 10px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
